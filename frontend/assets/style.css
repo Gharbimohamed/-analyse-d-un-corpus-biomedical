@@ -1,0 +1,41 @@
+
+.CONTENT_STYLE,.dash-graph,#demo-dropdown{
+    margin-left: -6rem;
+
+}
+.content{
+    width:100%;
+    margin-top:3%;
+}
+.col{
+    padding-left:5% !important;
+}
+#slider, #cur_plot{
+    width: 100% !important;
+}
+#navbar_collapse{
+    position: fixed;
+}
+#page-content{
+    width: 80%;
+    margin-left: auto;}
+@media screen and (max-width: 1439px) and (min-width: 992px) {
+    .sidebare{
+        position: fixed;
+        top: 8.5%;
+        left: 0;
+        bottom: 0;
+        width: 13rem;
+        padding: 2rem 1rem;
+        background-color: #343a40;
+    }
+
+}
+@media screen and (max-width: 991px) {
+
+      .sidebare {
+        display: none;
+      }
+
+
+}
